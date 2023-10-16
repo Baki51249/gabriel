@@ -1,0 +1,38 @@
+.evento-item{
+    display: flex;
+    margin: 40px;
+    background-color: #E4ECC5;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 40px;
+}
+.evento-item img{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+}
+
+main{
+    grid-template-columns: 1fr;
+}
+.evento-item div{
+    width: 100%;
+}
+
+.evento-texto img{
+    width: 40px;
+    height: auto;
+}
+.evento-texto ul,.evento-texto li{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.evento-texto{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
